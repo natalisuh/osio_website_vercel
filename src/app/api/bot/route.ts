@@ -2,7 +2,7 @@
 import { NextRequest } from 'next/server';
 
 // ИСПОЛЬЗУЙТЕ ТОТ ЖЕ URL, КОТОРЫЙ ВЫ ДАЛИ, С /chat В КОНЦЕ
-const N8N_CHAT_WEBHOOK_URL = "https://osio.app.n8n.cloud/webhook/f406671e-c954-4691-b39a-66c90aa2f103/chat";
+const N8N_CHAT_WEBHOOK_URL = "https://osio-suh.app.n8n.cloud/webhook/f406671e-c954-4691-b39a-66c90aa2f103/chat";
 
 export async function POST(req: NextRequest) {
   try {

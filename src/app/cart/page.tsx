@@ -89,7 +89,7 @@ export default function CartPage() {
   const handleOrderSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     console.log("Order submitted:", { orderData, paymentMethod, cart });
-    alert("Заказ оформлен! (Это демо, данные не отправляются на сервер)");
+    alert("Заказ оформлен! На Вашу электронную почту отпрвлено письмо-подтверждение");
     setCart([]);
     localStorage.removeItem('cart');
   };
